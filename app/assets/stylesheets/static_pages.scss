@@ -1,0 +1,460 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+/*** Navigation bar typography ***/
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #436EEE;
+}
+
+/*.navbar-inverse .navbar-brand a:hover {
+	color: #ff0;
+}*/
+
+.navbar-inverse {
+	background-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: black;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.navbar-inverse {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.navbar-fixed-top {
+	border: none;
+}
+
+.home a {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	color: black;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+	font-size: 1.5em;
+	padding: 0 15px;
+}
+
+/*** Navigation bar layout ***/
+
+.nav {
+  z-index: 1;
+}
+
+.anchor {
+	padding-top: 80px;
+}
+
+.navbar-inverse {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navbar-brand {
+	/*margin-top: 10px;*/
+	/*margin-top: -2.5em;*/
+	margin-top: 10px;
+}
+
+body {
+  position: relative;
+}
+
+.navbar-right {
+	margin-top: 10px;
+}
+
+.nav {
+	margin-bottom: 30px;
+	/*height: 80px;*/
+}
+
+/*** Carousel ***/
+
+.carousel {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.carousel {
+	margin-top: 30px;
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+.carousel-caption p {
+	font-size: 0.8em
+}
+/*** First page layout ****/
+
+.bigpicc {
+	width: 100%;
+	/*margin: 0 auto;*/
+	margin-bottom: 5em;
+}
+
+.bigpicc p {
+	text-align: center;
+}
+
+.iintro {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*** About page layout ***/
+
+* { box-sizing: border-box; }
+
+/*.abouta {
+	width: 80%;
+	margin: 0 auto;
+}*/
+
+.leander h2 {
+	text-align: center;
+}
+
+/*.intro p {
+	text-align: left;
+}*/
+	
+#abt {
+	margin-top: 5em;
+}	
+
+.intro {
+	margin-bottom: 5em;
+}
+
+.anygoodpic p {
+	text-align: center;
+}
+
+.any {
+	margin-top: 30px;
+}
+
+/**** About Typography ***/
+
+.leander h2 {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.leander h2:hover {
+	color: #436EEE;
+	text-decoration: none;
+}
+
+.intro p {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: #34495e;
+}
+
+/*** Hacemos layout ***/
+
+.slides {
+	margin-top: 25px;
+}
+
+.workintro h2 {
+	text-align: center;
+}
+
+.workintro {
+	margin-bottom: 5em;
+}
+
+.slidezi {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.slidez p {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#hacemos {
+	margin-bottom: 5em;
+}
+
+/*** Hacemos typography ***/
+
+.workintro h2 {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+}
+
+.workintro p {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+}
+
+.workintro h2:hover {
+	color: #436EEE;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+/*** Gallery ***/
+
+#gallery {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#gallery {
+	margin-bottom: 5em;
+}
+
+.thumbnail {
+	height: 252.5px ;
+}
+
+/*** FAQ page Typography ***/
+
+.faqheader h2 {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.faqheader h2:hover {
+	color: #436EEE;
+	text-decoration: none;
+}
+
+.panel-body {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1em;
+	background-color: #DADADA;
+}
+
+.panel-default>.panel-heading {
+	background-color: #F0ECE9;
+	color: black;
+}
+
+.panel-title {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.3em;
+}
+
+/*** FAQ page layout ***/
+
+.faqheader h2 {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.faqheader {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.faq {
+	/*margin-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;*/
+	width: 80%;
+	margin: 0 auto;
+}
+
+#faque {
+	margin-bottom: 5em;
+}
+
+/*** Fotos ***/
+
+.contactz {
+	text-align: center;
+}
+
+/*#thumbnailImage {
+	margin-top: 5px;
+}*/
+
+.contacts h2:hover {
+	color: #436EEE;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.contacts h2 {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+}
+
+/*** Contact page Typography ***/
+
+.contacts h1 {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+#kntkto h3, p {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.3em;
+}
+
+.contacts h1:hover {
+	color: red;
+	text-decoration: none;
+}
+
+#kntkto {
+  background-image: url("../img/wetransfer-5c02d2/foto13.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  height: 60em;
+}
+
+.black {
+	background: black;
+	opacity: 0.7;
+}
+
+.mail {
+	text-decoration: none;
+	color: red;
+}
+
+.dosmapas h2, h3, p {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+}
+
+/*** Contact page layout ***/
+
+/*#map {
+  height: 300px;
+  width: 100%;
+}*/
+
+.form-control {
+	width: 80%;
+}
+
+.contacts h1 {
+	text-align: center;
+}
+
+/*#kntkto {
+	padding-left: 15px;
+}*/
+
+#kntkto {
+	margin-bottom: 5em;
+}
+
+.geo {
+	width: 100%;
+	height: 50%;
+	padding: 0 50px;
+}
+ .dosmapas h3, h2 {
+ 	text-align: center;
+ }
+
+ .dosmapas p {
+ 	text-align: center;
+ }
+
+ .dosmapas {
+ 	margin-bottom: 5em; 
+ }
+
+ .contacts {
+ 	padding-top: 15px;
+ }
+
+ .black {
+ 	padding-left: 15px;
+ 	padding-bottom: 15px;
+ }
+
+/*** Footer ***/
+
+.copyright {
+	display: block;
+	text-align: center;
+
+}
+
+.facebook {
+	display: block;
+	text-align: center;
+	max-width: 100%;
+}
+
+/*** Media queries ***/
+
+@media (max-width: 480px) {
+ 	.contacts, h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+ 	.faq {
+ 		margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+	.faq {
+		padding: 0 200px;
+	}
+}
+
+@media (max-width: 480px) {
+ 	#kntkto {
+ 		background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+   h2 {
+      font-size: 3em;
+   }
+
+   h3 {
+      font-size: 2em;
+   }
+
+}
+
+
+@media (max-width: 768px) {
+ 	.thumbnail {
+	height: 30em ;
+	}
+}
+
+@media (max-width: 480px) {
+ 	.thumbnail {
+	height: 18em ;
+	}
+}
+
+
+
+

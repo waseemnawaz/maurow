@@ -24,17 +24,9 @@
   </tbody>
 </table-->
 
-<div class="container-fluid">
+<div class="container-fluid anchor">
   <div class="row">
-    <% @articles.each do |article| %>
-      <div class="col-md-4">
-        <h1><%= article.title %></h1>
-        <p class="textz"><%= article.post %></p>
-        <p><%= link_to 'Show', article %></p>
-        <p><%= link_to 'Edit', edit_article_path(article) %></p>
-        <p><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></p>
-      </div><!-- /col -->
-    <% end %>
+    <%= render "article" %>
   </div>
 </div>
 

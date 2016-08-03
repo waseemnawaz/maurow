@@ -1,5 +1,26 @@
 <div class="container-fluid anchor" id="faque">
   <div class="faqheader">
     <h2><!--span class="glyphicon glyphicon-pencil"></span-->Contáctenos</h2>
+    <%= flash[:notice] %>
+
+		<%= form_tag("/static_pages/thank_you", class: "my_class") do %>
+		<div class="row">
+		  <div class="col-md-4 col-md-offset-4">
+		    <div class="form-group">
+		      <%= label_tag :name, "Nombre" %>
+		      <%= text_field_tag :name, nil, class: "form-control", placeholder: "Su nombre" %>
+		    </div>      
+		    <div class="form-group">
+		      <%= label_tag :email, "Correo electrónico" %>
+		      <%= text_field_tag :email, nil, class: "form-control", placeholder: "Su email" %>
+		    </div>
+		    <div class="form-group">
+		      <%= label_tag :message, "Mensaje" %>
+		      <%= text_area_tag :message, nil, class: "form-control", placeholder: "Su mensaje" %>
+		    </div>      
+		  </div>
+		</div>
+		<%= submit_tag "Send", class: "my_class" %>   
+		<% end %>
   </div>
 </div><!-- end container kntkt -->

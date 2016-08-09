@@ -1,5 +1,6 @@
 <% @articles.each do |article| %>
   <!--div class="col-md-6"-->
+  	<%= image_tag article.avatar, class: "img-responsive" %>
     <h1><%= article.title %></h1>
     <p class="textz"><%= article.post %></p>
     <p><%= link_to 'Show', article %></p>

@@ -1,15 +1,12 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 /*** Navigation bar typography ***/
 
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: #436EEE;
 }
-
-/*.navbar-inverse .navbar-brand a:hover {
-	color: #ff0;
-}*/
 
 .navbar-inverse {
 	background-color: #FFFFFF;
@@ -23,7 +20,7 @@
 
 .navbar-inverse {
 	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: bold;
 }
 
@@ -58,8 +55,6 @@
 }
 
 .navbar-brand {
-	/*margin-top: 10px;*/
-	/*margin-top: -2.5em;*/
 	margin-top: 10px;
 }
 
@@ -73,27 +68,8 @@ body {
 
 .nav {
 	margin-bottom: 30px;
-	/*height: 80px;*/
 }
 
-/*** Carousel ***/
-
-.carousel {
-	width: 100%;
-	margin: 0 auto;
-}
-
-.carousel {
-	margin-top: 30px;
-}
-
-.carousel-inner > .item > img {
-  margin: 0 auto;
-}
-
-.carousel-caption p {
-	font-size: 0.8em
-}
 /*** First page layout ****/
 
 .bigpicc {
@@ -111,37 +87,56 @@ body {
 	margin: 0 auto;
 }
 
+/*** First page typography ***/
+
+.bigpic, p {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.2em;
+}
+
+.iintro {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.2em;
+}
+
+/*** Carousel ***/
+
+.carousel {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+.carousel-caption p {
+	font-size: 0.8em
+}
+
 /*** About page layout ***/
 
 * { box-sizing: border-box; }
 
-/*.abouta {
-	width: 80%;
-	margin: 0 auto;
-}*/
-
 .leander h2 {
 	text-align: center;
 }
-
-/*.intro p {
-	text-align: left;
-}*/
 	
 #abt {
 	margin-top: 5em;
-}	
+}
 
 .intro {
 	margin-bottom: 5em;
 }
 
+.anygoodpic {
+	width: 80%;
+	margin: 0 auto;
+} 
+
 .anygoodpic p {
 	text-align: center;
-}
-
-.any {
-	margin-top: 30px;
 }
 
 /**** About Typography ***/
@@ -157,13 +152,18 @@ body {
 	text-decoration: none;
 }
 
-.intro p {
+.intro, p {
 	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.2em;
 }
 
 body {
   background-color: #FFFFFF;
   color: #34495e;
+}
+
+.anygoodpic p {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
 }
 
 /*** Hacemos layout ***/
@@ -185,6 +185,11 @@ body {
 	margin: 0 auto;
 }
 
+.slidez {
+	width: 80%;
+	margin: 0 auto;
+}
+
 .slidez p {
 	text-align: center;
 	margin-bottom: 30px;
@@ -200,8 +205,9 @@ body {
 	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
 }
 
-.workintro p {
+.workintro, p {
 	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.2em;
 }
 
 .workintro h2:hover {
@@ -211,7 +217,7 @@ body {
 	-webkit-transition: color 600ms;
 }
 
-/*** Gallery ***/
+/*** Gallery layout***/
 
 #gallery {
 	width: 80%;
@@ -222,8 +228,30 @@ body {
 	margin-bottom: 5em;
 }
 
-.thumbnail {
-	height: 252.5px ;
+.contacts h2 {
+	text-align: center;
+}
+
+/*** Gallery typography***/
+
+.contactz {
+	text-align: center;
+}
+
+.contacts h2:hover {
+	color: #436EEE;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.contacts h2 {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+}
+
+.contacts, p {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.2em;
 }
 
 /*** FAQ page Typography ***/
@@ -239,12 +267,24 @@ body {
 	text-decoration: none;
 }
 
+.faqheader, p {
+	font-size: 1.2em;
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+}
+
 /*** FAQ page layout ***/
 
 .faqheader h2 {
 	text-align: center;
 	padding-top: 10px;
 }
+
+#faque {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*** Contact page layout ***/
 
 .my_class {
 	text-align: center;
@@ -254,43 +294,37 @@ body {
 	text-align: left;
 }
 
-
-/*** Fotos ***/
-
-.contactz {
-	text-align: center;
-}
-
-/*#thumbnailImage {
-	margin-top: 5px;
-}*/
-
-.contacts h2:hover {
-	color: #436EEE;
-	text-decoration: none;
-	transition: color 600ms;
-	-webkit-transition: color 600ms;
-}
-
-.contacts h2 {
-	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
-}
-
-/*** Contact page Typography ***/
-
-
-/*** Footer ***/
+/*** Footer  layout ***/
 
 .copyright {
-	display: block;
+	/*display: block;*/
 	text-align: center;
-
+	padding-top: 4em;
+	margin-top: 5em;
 }
 
-.facebook {
-	display: block;
-	text-align: center;
-	max-width: 100%;
+/*** sticky footer code ***/
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: #E3EEF7;
 }
 
 /*** Media queries ***/
@@ -299,20 +333,6 @@ body {
  	.contacts, h2 {
     font-size: 1.2em;
   }
-}
-
-@media (max-width: 480px) {
- 	.faq {
- 		margin-top: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-}
-
-@media (min-width: 1200px) {
-	.faq {
-		padding: 0 200px;
-	}
 }
 
 @media (max-width: 480px) {
@@ -333,8 +353,7 @@ body {
 
 }
 
-
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
  	.thumbnail {
 	height: 30em ;
 	}
@@ -344,7 +363,7 @@ body {
  	.thumbnail {
 	height: 18em ;
 	}
-}
+}*/
 
 
 

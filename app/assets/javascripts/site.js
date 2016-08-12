@@ -22,8 +22,8 @@ $(document).on('ready page:load', function(){
     truncate: 20
 });
 	//elevate zoom
-	$(".img-zoom").elevateZoom({
-  	zoomType				: "inner",
-  	cursor: "crosshair"
-	});
+	//$(".img-zoom").elevateZoom({
+  	//zoomType				: "inner",
+  	//cursor: "crosshair"
+	//});
 });

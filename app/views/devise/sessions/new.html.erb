@@ -1,34 +1,32 @@
 <div class="container anchor loginz">
+<div class="loginn">
 <h2>Log in</h2>
 
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <!--div class="row">
-    <div class="col-md-4 col-md-offset-4"--> 
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %> 
       <div class="field form-group">
-        <%= f.label :correo %><br />
-        <%= f.email_field :email, placeholder: "Email", class: "form-control" %>
+        <%= f.label :correo, class: "theclass" %><br />
+        <%= f.email_field :email, placeholder: "Email", class: "form-control theclass" %>
       </div>
 
       <div class="field form-group">
-        <%= f.label :clave %><br />
-        <%= f.password_field :password, placeholder: "Su password", class: "form-control" %>
+        <%= f.label :clave, class: "theclass" %><br />
+        <%= f.password_field :password, placeholder: "Su password", class: "form-control theclass" %>
       </div>
 
       <% if devise_mapping.rememberable? -%>
         <div class="field">
           <%= f.check_box :remember_me %>
-          <%= f.label :remember_me %>
+          <%= f.label :remember_me, class: "theclass" %>
         </div>
       <% end -%>
 
   <div class="actions">
-    <%= f.submit "Log in" %>
+    <%= f.submit "Log in", class: "theclass" %>
   </div>
 <% end %>
 
 <div class="renderone">
 <%= render "devise/shared/links" %>
 </div>
-<!--/div>
-</div-->
+</div>
 </div><!-- end container -->

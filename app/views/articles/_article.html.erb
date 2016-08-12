@@ -1,10 +1,10 @@
 <% @articles.each do |article| %>
   <!--div class="col-md-6"-->
-  	<%= image_tag article.avatar, class: "img-responsive" %>
-    <h1><%= article.title %></h1>
+  	<a href="<%= article_url(article) %>"><%= image_tag article.avatar, class: "img-responsive blogpic" %></a>
+    <h2 class="blogtitle"><%= article.title %></h2>
     <p class="textz"><%= article.post %></p>
-    <p><%= link_to 'Show', article %></p>
-    <p><%= link_to 'Edit', edit_article_path(article) %></p>
-    <p><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+    <!--p><%#= link_to 'Show', article %></p-->
+    <p><% if user_signed_in? %><%= link_to 'Edit', edit_article_path(article) %><% end %></p>
+    <p><% if user_signed_in? %><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %><% end %></p>
   <!--/div--><!-- /col -->
 <% end %>

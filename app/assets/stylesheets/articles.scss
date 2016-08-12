@@ -2,4 +2,87 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-/**** Articles layout ***/
+/**** Articles index layout ***/
+
+.blogpage {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.blogpage, h1 {
+	text-align: center;
+}
+
+.blogpage h1:hover{
+	color: #436EEE;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.blogpage h1 {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+.blogpic {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.textz {
+	text-align: left;
+}
+
+.textz {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.2em;
+}
+
+.blogtitle {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+}
+
+#blogpagez {
+	margin-top: 5em;
+}
+
+/*** Article show page ***/
+
+.shows h2 {
+	text-align: center;
+}
+
+.shows h2:hover {
+	color: #436EEE;
+	text-decoration: none;
+	transition: color 600ms;
+	-webkit-transition: color 600ms;
+}
+
+.shows h2 {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+}
+
+.shows {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#showzz {
+	margin-top: 5em;
+}
+
+.showpost {
+	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
+	font-size: 1.2em;
+}
+
+.showpost {
+	margin-top: 3em;
+}
+
+.showspic {
+	width: 60%;
+	margin: 0 auto;
+}

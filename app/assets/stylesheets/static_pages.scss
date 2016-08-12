@@ -50,8 +50,8 @@
 }
 
 .navbar-inverse {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .navbar-brand {
@@ -85,6 +85,10 @@ body {
 .iintro {
 	width: 80%;
 	margin: 0 auto;
+}
+
+#bigpik {
+	margin-top: 5em;
 }
 
 /*** First page typography ***/
@@ -197,6 +201,7 @@ body {
 
 #hacemos {
 	margin-bottom: 5em;
+	margin-top: 5em;
 }
 
 /*** Hacemos typography ***/
@@ -226,6 +231,7 @@ body {
 
 #gallery {
 	margin-bottom: 5em;
+	margin-top: 5em;
 }
 
 .contacts h2 {
@@ -282,6 +288,7 @@ body {
 #faque {
 	width: 80%;
 	margin: 0 auto;
+	margin-top: 5em;
 }
 
 /*** Contact page layout ***/
@@ -343,14 +350,20 @@ html, body {
 
 @media only screen and (max-width: 480px) {
 
-   h2 {
-      font-size: 3em;
-   }
-
-   h3 {
+   h1, h2 {
       font-size: 2em;
    }
 
+   h3 {
+      font-size: 1.5em;
+   }
+
+}
+
+@media (max-width: 480px) {
+	.navbar-brand {
+	margin-top: 1px;
+	}
 }
 
 /*@media (max-width: 768px) {

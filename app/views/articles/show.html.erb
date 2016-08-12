@@ -1,22 +1,22 @@
 <p id="notice"><%= notice %></p>
-<div class="container anchor shows">
-<p>
-  <strong>Title:</strong>
+<div class="container anchor shows" id="showzz">
+
+<h2>
+  <!--strong>Title:</strong-->
   <%= @article.title %>
+</h2>
+
+<!--strong>Image:</strong-->
+<%= image_tag @article.avatar, class: "img-responsive showspic" %>
+
+<p class="showpost">
+  <!--strong>Post:</strong-->
+  <%= @article.post %>
 </p>
 
 <p class="date"><%= @article.created_at.strftime("%B, %d, %Y") %></p>
 
-<p>
-  <strong>Post:</strong>
-  <%= @article.post %>
-</p>
-
-<p>
-  <strong>Image:</strong>
-  <%= image_tag @article.avatar %>
-</p>
 <p id="notice"><%= notice %></p>
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+<% if user_signed_in? %><%= link_to 'Edit', edit_article_path(@article) %><% end %>
+<%= link_to 'Volver', articles_path %>
 </div>

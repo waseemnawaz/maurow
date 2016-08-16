@@ -39,6 +39,10 @@
 	padding: 0 15px;
 }
 
+.navbar-toggle {
+	background-color: black;
+}
+
 /*** Navigation bar layout ***/
 
 .nav {
@@ -126,7 +130,11 @@ body {
 	text-align: center;
 }
 	
-#abt {
+/*#abt {
+	margin-top: 5em;
+}*/
+
+#thecarousel {
 	margin-top: 5em;
 }
 

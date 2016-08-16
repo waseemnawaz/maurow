@@ -344,17 +344,17 @@ html, body {
 
 /*** Media queries ***/
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
  	.contacts, h2 {
     font-size: 1.2em;
   }
-}
+}*/
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
  	#kntkto {
  		background-attachment: scroll;
   }
-}
+}*/
 
 @media only screen and (max-width: 480px) {
 
@@ -374,18 +374,36 @@ html, body {
 	}
 }
 
-
-/*@media (max-width: 768px) {
- 	.thumbnail {
-	height: 30em ;
+@media (max-width: 480px) {
+	p, .textz {
+		/*text-align: justify;
+		text-justify: inter-word;*/
+		font-size: 0.9em;
 	}
 }
 
 @media (max-width: 480px) {
- 	.thumbnail {
-	height: 18em ;
+	h1, h2 {
+		font-size: 1.6em;
+		font-weight: bold;
+		text-transform: uppercase;
 	}
-}*/
+}
+
+@media (max-width: 480px) {
+	.navbar {
+		background-color: #9BEDFF;
+	}
+}
+
+@media (max-width: 480px) {
+	.slidez, #gallery, #faque {
+		width: 100%;
+	}
+}
+
+
+
 
 
 

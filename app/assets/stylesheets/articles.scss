@@ -20,6 +20,10 @@
 	-webkit-transition: color 600ms;
 }
 
+.grey {
+	background-color: #E3EEF7;
+}
+
 .blogpage h1 {
 	font-family: Courier New, Lucida Sans Typewriter, Verdana, sans-serif;
 	font-weight: bold;
@@ -28,6 +32,8 @@
 .blogpic {
 	width: 60%;
 	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .textz {
@@ -85,4 +91,27 @@
 .showspic {
 	width: 60%;
 	margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+	.blogpage {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.blogpic {
+		width: 95%;
+	}
+}
+
+@media (max-width: 480px) {
+	.shows {
+		width: 100%;
+	}
+}
+@media (max-width: 480px) {
+	.showspic {
+		width: 95%;
+	}
 }

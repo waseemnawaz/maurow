@@ -27,5 +27,4 @@ $(document).on('ready page:load', function(){
   	//cursor: "crosshair"
 	//});
   //carousel
-  //$('#thecarousel').carousel('cycle');
 });

@@ -17,6 +17,6 @@
 <p class="date"><%= @article.created_at.strftime("%B, %d, %Y") %></p>
 
 <p id="notice"><%= notice %></p>
-<%# if user_signed_in? %><%= link_to 'Edit', edit_article_path(@article) %><%# end %>
+<% if user_signed_in? %><%= link_to 'Edit', edit_article_path(@article) %><% end %>
 <%= link_to 'Volver', articles_path %>
 </div>

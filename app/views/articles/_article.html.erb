@@ -2,7 +2,7 @@
   <div class="grey">
   	<a href="<%= article_url(article) %>"><%= image_tag article.avatar, class: "img-responsive blogpic" %></a>
     <a href="<%= article_url(article) %>"><h2 class="blogtitle"><%= article.title %></h2></a>
-    <p class="textz"><%= article.post %></p>
+    <p class="textz"><%= simple_format article.post %></p>
     <!--p><%#= link_to 'Show', article %></p-->
     <p><% if user_signed_in? %><%= link_to 'Edit', edit_article_path(article) %><% end %></p>
     <p><% if user_signed_in? %><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %><% end %></p>

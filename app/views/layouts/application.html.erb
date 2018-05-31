@@ -39,7 +39,7 @@
                 <li><%= link_to "Catering", static_pages_catering_path %><!--a href="#faque">Catering</a--></li>
                 <li><%= link_to "Blog", articles_path %></li>
                 <li><%= link_to "Contacto", static_pages_contacto_path %><!--a href="#kntkto">Contáctenos</a--></li>
-                <li>
+                <li class="logina">
                 <% if user_signed_in? %>
                   <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
                 <% else %>
